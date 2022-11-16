@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 main {
     background-color: #264653;
     display: grid;
@@ -16,18 +17,20 @@ main {
 
 @media (max-width: 800px) {
     main {
-        grid-template-areas: 
-        "first"
-        "second"
-        "third"
-        "fourth";
+        grid-template-areas:
+            "first"
+            "second"
+            "third"
+            "fourth";
     }
-  }
+}
 
 div {
     border: 2px #2a9d8f solid;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
 div:nth-child(1) {
     grid-area: "first";
 }
@@ -39,17 +42,19 @@ div:nth-child(2) {
 div:nth-child(3) {
     grid-area: "third";
 }
+
 div:nth-child(4) {
     grid-area: "fourth";
     font-size: larger;
 }
+
 .user-input {
-   font-family: 'Rubik Bubbles';
-   font-size: 48px;
+    font-family: 'Rubik Bubbles', sans-serif;
+    font-size: 48px;
 }
 
 
-header{
+header {
     background-color: #2a9d8f;
     color: #e3ca8a;
     padding-bottom: 5px;
