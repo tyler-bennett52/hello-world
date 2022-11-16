@@ -56,16 +56,18 @@ div:nth-child(4) {
 
 header {
     background-color: #2a9d8f;
-    color: #e3ca8a;
+    color: #e9c46a;
     padding-bottom: 5px;
+    margin-left: 1em;
 }
 
+
+
 a {
-    color: #e3ca8a;
+    color: #e9c46a;
     /* text-decoration: overline; */
     font-size: 1.1em;
     border: 1px #e3ca8a solid;
-    margin-right: 1em;
     padding: .3em;
     border-radius: 10px;
 }
