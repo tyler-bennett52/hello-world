@@ -16,6 +16,9 @@ function welcome() {
 // display username in Your Art Here section
 function tagPage() {
     let userName = prompt('What is your name?');
+    if (userName === '') {
+        userName = prompt('Seriously, you gotta put something here.')
+    }
     console.log("User's name is " + userName);
     document.write(userName + ' wuz here');
     return userName
