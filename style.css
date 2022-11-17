@@ -61,8 +61,6 @@ header {
     margin-left: 1em;
 }
 
-
-
 a {
     color: #e9c46a;
     /* text-decoration: overline; */
@@ -85,4 +83,12 @@ h1 {
 
 h3 {
     font-size: 1.5em;
+}
+
+nav>span {
+    margin: 0;
+    padding-inline-start: 0;
+    margin-left: 1em;
+    color: #111;
+    font-size: 1.5rem;
 }
