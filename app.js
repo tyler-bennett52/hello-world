@@ -38,3 +38,14 @@ function backgroundCheck() {
         document.write('*sigh* Different text shows here if you learn to follow directions')
     }
 }
+
+// Add spray cans based on loop
+function toolsOfTheTrade() {
+
+    let output = '';
+    let numCans = prompt('How many spraycans do you need?');
+    for(let i = 0; i < numCans; i++){
+        output += "<img class='cans' src='sprayCan.png'/>";
+    }
+
+    return document.write(output)}

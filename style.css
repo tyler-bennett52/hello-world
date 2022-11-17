@@ -88,7 +88,13 @@ h3 {
 nav>span {
     margin: 0;
     padding-inline-start: 0;
-    margin-left: 1em;
+    margin-left: 3em;
     color: #111;
     font-size: 1.5rem;
+}
+
+.cans {
+    width: 3%;
+    margin: 0;
+    padding: 0;
 }
